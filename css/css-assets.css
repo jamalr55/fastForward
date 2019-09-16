@@ -1,29 +1,3 @@
-/*=====================================================================
- 
-	CSS ASSETS
-	----------
-
-	Here are all imports of css libraries and helpers like
-	Bootstrap, fontAwesome, Owl Carousel, .. etc.
-
- *=================================================================== */
-/* Font Size Headings */
-/* Font Size Custom */
-/*!
- * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=7d1f802361a5ea746395)
- * Config saved to config.json and https://gist.github.com/7d1f802361a5ea746395
- */
-/*!
- * Bootstrap v3.3.6 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url(../fonts/fontawesome/css/all.css);
 @import "https://use.fontawesome.com/releases/v5.3.1/css/v4-shims.css";
 html {
@@ -1894,11 +1868,7 @@ select[multiple].input-lg {
   .hidden-print {
     display: none !important; } }
 
-/**
- * Owl Carousel v2.1.6
- * Copyright 2013-2016 David Deutsch
- * Licensed under MIT (https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE)
- */
+
 /*
  *  Owl Carousel - Core
  */
@@ -2071,11 +2041,6 @@ select[multiple].input-lg {
   height: 100%;
   width: 100%; }
 
-/**
- * Owl Carousel v2.1.6
- * Copyright 2013-2016 David Deutsch
- * Licensed under MIT (https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE)
- */
 /*
  * 	Default theme - Owl Carousel CSS File
  */
@@ -2750,13 +2715,6 @@ img.mfp-img {
 .mfp-with-fade.mfp-removing.mfp-bg {
   opacity: 0; }
 
-/*!
- * Hamburgers
- * @description Tasty CSS-animated hamburgers
- * @author Jonathan Suh @jonsuh
- * @site https://jonsuh.com/hamburgers
- * @link https://github.com/jonsuh/hamburgers
- */
 /* Font Size Headings */
 /* Font Size Custom */
 .hamburger {
@@ -2833,15 +2791,15 @@ img.mfp-img {
 
  *=================================================================== */
 /**
- *  [ 01 ] - Pattern Grid
- *  [ 02 ] - Pattern Texture
+ *  Pattern Grid
+ *  Pattern Texture
  */
 [class*="bg-pattern-"] {
   background-position: top center;
   background-repeat: repeat;
   background-attachment: fixed; }
 
-/*  [ 01 ] - Pattern Grid
+/*  Pattern Grid
 =========================== */
 .bg-pattern-grid-1 {
   background-image: url("../images/general-elements/bg-patterns/grid/1.png"); }
@@ -2861,7 +2819,7 @@ img.mfp-img {
 .bg-pattern-grid-6 {
   background-image: url("../images/general-elements/bg-patterns/grid/6.png"); }
 
-/*  [ 02 ] - Pattern Texture
+/*  Pattern Texture
 ============================== */
 .bg-pattern-texture-1 {
   background-image: url("../images/general-elements/bg-patterns/texture/1.png"); }
