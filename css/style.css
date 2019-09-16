@@ -1,60 +1,8 @@
-/*=================================================================================
-
-    Theme Name: LeadMask
-    Theme URI: http://moradhamdy.com/morad/leadmask-demo
-    Description: Business HTML Template
-    Author: Morad
-    Author URI: http://moradhamdy.com/
-    Version: 1.0
-
-    SCSS Stylesheet
-
-===================================================================================*/
-/* Font Size Headings */
-/* Font Size Custom */
-/**
- *  styles.css file is divided as the following:
- *  
- *  ( 01 ) - General Settings
- *  ( 02 ) - General Contents
- *  ( 03 ) - Header
- *  ( 04 ) - Banner
- *  ( 05 ) - Content
- *  ( 06 ) - Footer
- *
- */
-/**
- * -------------------------------------------------------------------------------
- * ( 01 ) - General Settings
- * -------------------------------------------------------------------------------
- *
- *  This part contains the general settings that you can change like general
- *  font-family, color, headings settings, paragraphs, .. etc.
- *
- * ------
- *
- *  General Basics divided to the following sections:
- *
- *    |
- *    |-->  [ 01 ] - Small Reset
- *    |-->  [ 02 ] - Body
- *    |-->  [ 03 ] - General Links
- *    |-->  [ 04 ] - Headings
- *    |-->  [ 05 ] - Paragraphs
- *    |-->  [ 06 ] - Images
- *    |-->  [ 07 ] - Strong
- *    |-->  [ 08 ] - Texts Highlighting Selection
- *    |-->  [ 09 ] - Text Colored
- *    |-->  [ 10 ] - Form Settings
- *
- */
-/*  [ 01 ] - Small Reset
-=========================== */
 body, ul, ol, h1, h2, h3, h4, h5, h6, form, li, p, input, select, legend, textarea, fieldset {
   margin: 0;
   padding: 0; }
 
-/*  [ 02 ] - Body
+/* Body
 ==================== */
 body {
   width: 100%;
@@ -98,7 +46,6 @@ body.boxed {
   body.boxed #full-container, body.boxed .header-bar, body.boxed .header-bar-wrap, body.boxed #scroll-progress {
     width: auto; } }
 
-/* Custom Default Content Width */
 /* Space between Bootstrap columns */
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   padding-left: 10px;
@@ -113,7 +60,7 @@ body.boxed {
 [class*="col-"] .connect-box:last-child {
   margin-bottom: 0; }
 
-/*  [ 03 ] - General Links
+/*  General Links
 ============================= */
 a,
 a img {
@@ -140,7 +87,7 @@ p a:hover {
   text-decoration: none;
   border-bottom: 1px dotted #5273f9; }
 
-/*  [ 04 ] - Headings
+/*  Headings
 ======================== */
 h1,
 h2,
@@ -254,7 +201,7 @@ h5 + .subheader,
 h6 + .subheader {
   margin-top: -2px; }
 
-/*  [ 05 ] - Paragraphs
+/*  Paragraphs
 ========================== */
 p {
   margin-bottom: 22px; }
@@ -262,18 +209,18 @@ p {
 .dark p {
   color: #fff; }
 
-/*  [ 06 ] - Images
+/*  Images
 ====================== */
 img {
   max-width: 100%; }
 
-/*  [ 07 ] - Strong
+/*  Strong
 ====================== */
 strong {
   color: #222;
   font-weight: 600; }
 
-/*  [ 08 ] - Texts Highlighting Selection
+/*  Texts Highlighting Selection
 ============================================ */
 ::-moz-selection {
   background: #c0eaf5;
@@ -283,12 +230,12 @@ strong {
   background: #c0eaf5;
   color: #222; }
 
-/*  [ 09 ] - Text Colored
+/*  Text Colored
 ============================ */
 .colored {
   color: #299b47; }
 
-/*  [ 10 ] - Form Settings
+/*  Form Settings
 ============================ */
 form {
   position: relative;
@@ -426,39 +373,7 @@ input[type="submit"]:focus,
 input[type="submit"].form-control:focus {
   box-shadow: none; }
 
-/**
- * -------------------------------------------------------------------------------
- * ( 02 ) - General Contents
- * -------------------------------------------------------------------------------
- *
- *  This part contains the basic general contents like box preview, image  
- *  preview, flat section, parallax section .. etc.
- *
- * ------
- *
- *  General Contents divided to the following sections:
- *
- *    |
- *    |-->  [ 01 ] - Flat Section
- *    |-->  [ 02 ] - Parallax Section
- *    |-->  [ 03 ] - Overlay Colored & Pattern
- *    |-->  [ 04 ] - Image BG
- *    |-->  [ 05 ] - Slider Image BG
- *    |-->  [ 06 ] - Image Preview
- *    |-->  [ 07 ] - Video Preview
- *    |-->  [ 08 ] - Box Info
- *    |-->  [ 09 ] - Divider Space
- *    |-->  [ 10 ] - Magnific Popup
- *    |-->  [ 11 ] - Icons
- *    |-->  [ 12 ] - Buttons
- *    |-->  [ 13 ] - Social Icons
- *    |-->  [ 14 ] - Testimonial Single 1
- *    |-->  [ 15 ] - Scroll Progress
- *    |-->  [ 16 ] - Website Loading
- *    |-->  [ 17 ] - Scroll Top Icon
- *
- */
-/*  [ 01 ] - Flat Section
+/*  Flat Section
 =========================== */
 .flat-section {
   width: 100%;
@@ -524,7 +439,7 @@ input[type="submit"].form-control:focus {
   .center-vertical .section-content > .container > .row {
     display: block; } }
 
-/*  [ 02 ] - Parallax Section
+/*  Parallax Section
 =============================== */
 .parallax-section {
   width: 100%;
@@ -555,7 +470,7 @@ input[type="submit"].form-control:focus {
   .parallax-section > .bg-element {
     background-position: initial !important; } }
 
-/*  [ 03 ] - Overlay Colored & Pattern
+/*  Overlay Colored & Pattern
 ======================================== */
 .overlay-colored,
 .overlay-pattern {
@@ -574,7 +489,7 @@ input[type="submit"].form-control:focus {
   background-repeat: repeat;
   background-position: top left; }
 
-/*  [ 04 ] - Image BG
+/*  Image BG
 ======================= */
 .img-bg {
   overflow: hidden;
@@ -630,7 +545,7 @@ input[type="submit"].form-control:focus {
         .img-bg .overlay .overlay-inner h1:last-child, .img-bg .overlay .overlay-inner h2:last-child, .img-bg .overlay .overlay-inner h3:last-child, .img-bg .overlay .overlay-inner h4:last-child, .img-bg .overlay .overlay-inner h5:last-child, .img-bg .overlay .overlay-inner h6:last-child {
           margin-bottom: 0; }
 
-/*  [ 05 ] - Slider Image BG
+/*  Slider Image BG
 ============================== */
 .slider-img-bg .bg-element {
   position: absolute;
@@ -639,7 +554,7 @@ input[type="submit"].form-control:focus {
   background: no-repeat top center / cover;
   transition: all 0.4s ease; }
 
-/*  [ 06 ] - Image Preview
+/*  Image Preview
 ============================ */
 .img-preview {
   margin-bottom: 40px;
@@ -647,7 +562,7 @@ input[type="submit"].form-control:focus {
   .img-preview img {
     width: 100%; }
 
-/*  [ 07 ] - Video Preview
+/*  Video Preview
 ============================ */
 .video-preview {
   overflow: hidden;
@@ -760,7 +675,7 @@ input[type="submit"].form-control:focus {
   transform: translateY(-50%);
   margin: 0 15px 0 0; }
 
-/*  [ 08 ] - Box Info
+/*   Box Info
 ======================= */
 .box-info {
   position: relative; }
@@ -788,7 +703,7 @@ input[type="submit"].form-control:focus {
   .reversed .box-content {
     text-align: right; } }
 
-/*  [ 09 ] - Divider Space
+/*  Divider Space
 ============================ */
 [class*="divider-"] {
   display: block;
@@ -959,7 +874,7 @@ input[type="submit"].form-control:focus {
   top: 60px;
   clear: both; }
 
-/*  [ 10 ] - Magnific Popup
+/*  Magnific Popup
 ============================= */
 /* Popup Fade Effect */
 .mfp-fade.mfp-bg {
@@ -982,7 +897,7 @@ input[type="submit"].form-control:focus {
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0; }
 
-/*  [ 11 ] - Icons
+/*  Icons
 ==================== */
 .icon {
   position: relative;
@@ -1026,7 +941,7 @@ input[type="submit"].form-control:focus {
     margin-left: 0;
     font-size: inherit; }
 
-/*  [ 12 ] - Buttons
+/*  Buttons
 ====================== */
 .btn {
   display: inline-block;
@@ -1092,7 +1007,7 @@ input[type="submit"].form-control:focus {
     padding: 6px 45px;
     font-size: 20px; } }
 
-/*  [ 13 ] - Social Icons
+/*  Social Icons
 =========================== */
 /* Social Icons */
 .social-icons {
@@ -1187,7 +1102,7 @@ input[type="submit"].form-control:focus {
   .social-icons.hover-white-bg li a i:last-child {
     color: #222; }
 
-/*  [ 14 ] - Testimonial Single 1
+/*  Testimonial Single 1
 =================================== */
 .testimonial-single-1 {
   position: relative;
@@ -1234,7 +1149,7 @@ input[type="submit"].form-control:focus {
     float: none;
     margin-bottom: 15px; } }
 
-/*  [ 15 ] - Scroll Progress
+/*  Scroll Progress
 ============================== */
 #scroll-progress {
   position: fixed;
@@ -1261,7 +1176,7 @@ input[type="submit"].form-control:focus {
     text-align: center;
     display: none; }
 
-/*  [ 16 ] - Website Loading
+/*  Website Loading
 ============================== */
 #website-loading {
   position: fixed;
@@ -1280,7 +1195,7 @@ input[type="submit"].form-control:focus {
     text-align: center;
     margin-top: -56px; }
 
-/*  [ 17 ] - Scroll Top Icon
+/*  Scroll Top Icon
 ============================== */
 .scroll-top-icon {
   width: 30px;
@@ -1308,19 +1223,8 @@ input[type="submit"].form-control:focus {
 
 /**
   * -------------------------------------------------------------------------------
-  * ( 03 ) - Header
+  * Header
   * -------------------------------------------------------------------------------
-  *
-  *  This part contains logo, main menu and call to action button.
-  *
-  * ------
-  *
-  *  Header is divided to the following sections:
-  *
-  *    |
-  *    |-->  [ 01 ] - Logo
-  *    |-->  [ 02 ] - Header Bars
-  *
   */
 #header {
   position: absolute;
@@ -1330,7 +1234,7 @@ input[type="submit"].form-control:focus {
   width: 100%;
   font-size: 13px; }
 
-/*  [ 01 ] - Logo
+/* Logo
 =================== */
 .logo {
   display: inline-block; }
@@ -1366,7 +1270,7 @@ input[type="submit"].form-control:focus {
   .logo-header.logo-text {
     text-align: left; }
 
-/*  [ 02 ] - Header Bars
+/*  Header Bars
 ========================== */
 /* Header Bar */
 .header-bar,
@@ -1440,20 +1344,8 @@ input[type="submit"].form-control:focus {
 
 /**
   * -------------------------------------------------------------------------------
-  * ( 04 ) - Banner
+  * Banner
   * -------------------------------------------------------------------------------
-  *
-  *  This part contains all banner related contents like banner slider, bannar
-  *  parallax
-  *
-  * ------
-  *
-  *  Banner is divided to the following sections:
-  *
-  *    |
-  *    |-->  [ 01 ] - Banner Parallax
-  *    |-->  [ 02 ] - Banner Slider
-  *
   */
 #banner {
   position: relative;
@@ -1497,7 +1389,7 @@ input[type="submit"].form-control:focus {
     width: 100%;
     margin-bottom: -16px; } }
 
-/*  [ 01 ] - Banner Parallax
+/*  Banner Parallax
 ============================== */
 .banner-parallax {
   position: relative;
@@ -2217,7 +2109,7 @@ html.scroll-lock {
   html.scroll-lock .popup-preview {
     overflow-y: auto; }
 
-/*  [ 02 ] - Banner Slider
+/*  Banner Slider
 ============================= */
 .banner-slider {
   overflow: hidden;
@@ -2450,23 +2342,8 @@ html.scroll-lock {
 
 /**
   * -------------------------------------------------------------------------------
-  * ( 05 ) - Content
+  * Content
   * -------------------------------------------------------------------------------
-  *
-  *  This part contains all content sections in main content
-  *
-  * ------
-  *
-  *  Content is divided to the following sections:
-  *
-  *    |
-  *    |-->  [ 01 ] - Content
-  *    |-->  [ 02 ] - Sidebar
-  *    |-->  [ 03 ] - Intro Features
-  *    |-->  [ 04 ] - Watch Video
-  *    |-->  [ 05 ] - Clients Testimonials
-  *    |-->  [ 06 ] - CTA Title 1
-  *
   */
 #content {
   position: relative;
@@ -2479,7 +2356,7 @@ html.scroll-lock {
 #content-wrap {
   position: relative; }
 
-/*  [ 01 ] - Content
+/*  Content
 ====================== */
 .content.with-sidebar {
   padding-right: 10px; }
@@ -2489,9 +2366,9 @@ html.scroll-lock {
 .content.sidebar-left {
   padding: 0 0 0 10px; }
 
-/*  [ 02 ] - Sidebar
+/*  Sidebar
 ================================= */
-/*  [ 03 ] - Intro Features
+/*  Intro Features
 ============================= */
 #intro-features {
   perspective: 1000px;
@@ -2669,7 +2546,7 @@ html.scroll-lock {
         opacity: 0.2;
         transition: all 0.2s; }
 
-/*  [ 04 ] - Watch Video
+/*  Watch Video
 ========================== */
 #watch-video .section-content {
   background: #f9f9f9; }
@@ -2722,7 +2599,7 @@ html.scroll-lock {
   #watch-video .video-preview {
     min-height: 250px; } }
 
-/*  [ 05 ] - Clients Testimonials
+/*  Clients Testimonials
 =================================== */
 /* Rating */
 .rating {
@@ -2828,7 +2705,7 @@ html.scroll-lock {
         opacity: 0.2;
         transition: all 0.2s; }
 
-/*  [ 06 ] - CTA Title 1
+/*  CTA Title 1
 ========================== */
 #cta-title-1.parallax-section.text-white {
   color: #fff; }
@@ -2859,6 +2736,11 @@ html.scroll-lock {
   line-height: 1.9;
   font-size: 16px; }
 
+#cta-title-1 li {
+  list-style-type: none;
+  font-size: 16px;
+}
+
 @media (max-width: 768px) {
   #cta-title-1 .section-content {
     padding: 110px 0; }
@@ -2880,27 +2762,16 @@ html.scroll-lock {
 
 /**
  *  -------------------------------------------------------------------------------
- *  ( 06 ) - Footer
+ *  Footer
  *  -------------------------------------------------------------------------------
- *
- *  This part contains footer and mini footer
- *
- *  ------
- *
- *  It has the following code:
- *
- *    |
- *    |-->  [ 01 ] - Footer
- *    |-->  [ 02 ] - Footer Bars
- 
  */
-/*  [ 01 ] - Footer
+/*  Footer
 ===================== */
 #footer {
   overflow: hidden;
   position: relative; }
 
-/*  [ 02 ] - Footer Bars
+/*  Footer Bars
 ========================== */
 /* Footer Bar */
 .footer-bar {
@@ -2952,7 +2823,7 @@ html.scroll-lock {
  */
 /* Font Size Headings */
 /* Font Size Custom */
-/*  [ 01 ] - Colors
+/*  Colors
 ===================== */
 /* Opacity Values */
 .opacity-05 {
@@ -3124,7 +2995,7 @@ html.scroll-lock {
   .md-text-left {
     text-align: left; } }
 
-/*  [ 02 ] - Text Styles
+/*  Text Styles
 ========================== */
 .font-weight-100 {
   font-weight: 100; }
@@ -3153,7 +3024,7 @@ html.scroll-lock {
 .font-weight-900 {
   font-weight: 900; }
 
-/*  [ 02 ] - Padding
+/*  Padding
 ====================== */
 /* Top Padding */
 .pt-0 {
@@ -3620,7 +3491,7 @@ html.scroll-lock {
   .plr-md-140 {
     padding: 0 140px; } }
 
-/*  [ 03 ] - Margin
+/*  Margin
 ===================== */
 /* Top Margin */
 .mt-0 {
@@ -4217,7 +4088,7 @@ html.scroll-lock {
   .mt-xs-140 {
     margin-top: 140px; } }
 
-/*  [ 03 ] - Heights
+/*  Heights
 ====================== */
 .h-0 {
   height: 0px; }
